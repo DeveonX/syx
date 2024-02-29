@@ -10,7 +10,8 @@
     height: 100vh;
     width: 85vw;
     background-color: #fff;
-    overflow-y: scroll;;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .homeDiv::before{
@@ -22,7 +23,7 @@
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .mainDiv{
@@ -33,54 +34,18 @@
 
 .mainDiv p{
     margin-left: 10%;
-    margin-top: 15%;
+    margin-top: 18%;
     text-align: left;
     color: white;
     font-size: 3rem;
     font-weight: bold;
 }
 
-#typeWriteText0{
-    width: 0;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: text1;
-    animation-duration: 7s;
-    animation-timing-function: steps(60, end);
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+.typeWrite{
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: left;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
 }
-#typeWriteText1{
-    width: 0;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: text2;
-    animation-duration: 7s;
-    animation-timing-function: steps(60, end);
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-}
-
-
-@keyframes text2 {
-    0%, 50%, 100% {
-      width: 0;
-      display: none;
-    }
-    
-    60%, 90% {
-      width: 100%;
-        display: inline-block;
-    }
-  }
-  
-  @keyframes text1 {
-    0%, 50%, 100% {
-      width: 0;
-      display: none;
-    }
-    10%, 40% {
-      width: 100%;
-      display: inline-block;
-    }
-  }

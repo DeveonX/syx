@@ -8,9 +8,9 @@ function Sidebar(props) {
             <img src="eve.jfif" alt="Profile" className="profilePic"/>
             <h2>{props.Name}</h2>
             <div className="favIcons">
-              <a href="https://github.com/syeevee"><img src="fav-github.png" alt="github" /></a>
-              <a href="https://instagram.com/pixeevee"><img src="fav-insta.png" alt="insta" /></a>
-              <a href="https://www.linkedin.com/in/shivam-chauhan-11405628b/"><img src="fav-linkedin.png" alt="linkedin" /></a>
+              <a href="https://github.com/syeevee" target='_blank' rel='noreferrer'><img src="fav-github.png" alt="github" /></a>
+              <a href="https://instagram.com/pixeevee" target='_blank' rel='noreferrer'><img src="fav-insta.png" alt="insta" /></a>
+              <a href="https://www.linkedin.com/in/shivam-chauhan-11405628b/" target='_blank' rel='noreferrer'><img src="fav-linkedin.png" alt="linkedin" /></a>
             </div>
         </div>
         <div className="menuBar">
@@ -24,7 +24,7 @@ function Sidebar(props) {
         </div>
         <div className="footer">
             <p>© 2024 {props.Name}</p>
-            <span>Made with ReactJS</span>
+            <span>Made with Love using React</span>
         </div>
     </div>
   )
