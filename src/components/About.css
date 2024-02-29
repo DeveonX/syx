@@ -1,0 +1,16 @@
+.aboutDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin-top: 59vh;
+}
+
+.aboutDiv h1{
+    text-align: left;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
