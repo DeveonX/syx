@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 
-function About() {
+function About(props) {
   return (
     <div className="aboutDiv" id='aboutDiv'>
         <h1>About</h1>
@@ -15,13 +15,17 @@ function About() {
           <img src="aboutImage.jpg" alt="aboutImage" />
           <div className="details">
             <h2>Some Details</h2>
-            <p><span className='detailQuestion'>Age :</span><span className='detailAnswer'>17</span></p>
+            <p><span className='detailQuestion'>Age :</span><span className='detailAnswer'>{props.Age}</span></p>
             <p><span className='detailQuestion'>Birthday :</span><span className='detailAnswer'>June 26th, 2006</span></p>
             <p><span className='detailQuestion'>Location :</span><span className='detailAnswer'>Los Angeles, CA</span></p>
-            <p><span className='detailQuestion'>Email :</span><span className='detailAnswer'>myemailsucks@nomail.com</span></p>
-            <p><span className='detailQuestion'>Contact :</span><span className='detailAnswer'>+91 6397xxxxxx</span></p>
+            <p><span className='detailQuestion'>Education :</span><span className='detailAnswer'>NSUT, California</span></p>
+            <p><span className='detailQuestion'>Email :</span><span className='detailAnswer'>{props.Email}</span></p>
+            <p><span className='detailQuestion'>Contact :</span><span className='detailAnswer'>{props.Phone}</span></p>
             <p><span className='detailQuestion'>Fun Fact :</span><span className='detailAnswer'>I like to see pictures of naked woman</span></p>
-            <p style={{marginTop: "5%"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsum et culpa, consequatur id exercitationem vero minus velit pariatur commodi iusto laboriosam maiores, necessitatibus excepturi distinctio sed quas deserunt sunt?</p>
+            <p style={{marginTop: "5%"}}>
+              ¿Te importó lo suficiente como para traducir este texto?
+              Bueno, el significado de este texto es JODETE
+              </p>
           </div>
         </div>
     </div>

@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <Sidebar Name={Name}/>
       <div className="rightSide">
-        <Home Name="SyEevee" titleMessages={titleMessages} />
+        <Home Name="SyEevee" titleMessages={titleMessages} Email="myemailsucks@nomail.com" Age={17} Phone="+91 6397xxxxxx"/>
       </div>
     </div>
   );

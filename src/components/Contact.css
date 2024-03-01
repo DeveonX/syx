@@ -1,0 +1,164 @@
+.contactDiv{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.contactDiv h1{
+    text-align: left;
+    width: 100%;
+    margin-left: 6%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.contactDiv h1:after{
+    content: "";
+    height: 4px;
+    width: 100px;
+    display: block;
+    background: #80ccff;
+    border-radius: 3px;
+}
+
+.contactDiv p{
+    font-size: larger;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 1%;
+    color: black;
+}
+
+.contactCard{
+    display: flex;
+    margin-top: 3%;
+    justify-content: left;
+}
+
+.contactCardLeft, .contactCardRight{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: black 0px 0px 5px;
+}
+.contactCardLeft{
+    margin-left: 3%;
+    margin-right: 30px;
+    width: 40%;
+}
+.contactCardRight{
+    margin-right:3%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.contactCardLeft h2, .contactCardLeft p{
+    margin-left: 2%;
+}
+
+.contactCardLeft p{
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.contactCardImages{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-bottom: -5px;
+}
+
+#topMostHeading{
+    margin-top: 3%;
+}
+
+.locationEmbed{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactCardRight h2, .contactCardRight .inputField{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
+#sendMessageImage{
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    margin-bottom: -7px;
+}
+
+.contactCardRight label{
+    font-size: larger;
+}
+
+#contactForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100%;
+    height: 100%;
+}
+
+.inputField{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+.inputField label{
+    width: 100%;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.inputField input, .inputField textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: larger;
+}
+
+.inputField input:focus, .inputField textarea:focus{
+    box-shadow: 0px 0px 5px black;
+}
+
+#textAreaInputField{
+    width: 100%;
+    height: 70%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#textAreaInputField textarea{
+    height:  100%;
+}
+
+#messageSubmitButton{
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    width: 20%;
+    height: 10%;
+    background-color: black;
+    border-radius: 8px;
+}

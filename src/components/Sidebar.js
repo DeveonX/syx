@@ -24,7 +24,7 @@ function Sidebar(props) {
         </div>
         <div className="footer">
             <p>© 2024 {props.Name}</p>
-            <span>Made with Love using React</span>
+            <span>Made with Love using ReactJS</span>
         </div>
     </div>
   )
