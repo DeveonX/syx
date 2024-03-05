@@ -1,9 +1,33 @@
 import React from 'react'
 import './Sidebar.css'
+import { useState } from 'react';
+
 
 function Sidebar(props) {
-  return (
+
+  let leftSideBarVisible = false;
+  const showHideLeftSideBar = () => {
+    if (leftSideBarVisible) {
+      document.querySelector('.leftSideBar').style.animation = 'slideOut 1s';
+      setTimeout(()=>{
+        document.querySelector('.leftSideBar').style.display = 'none' }, 1000)
+
+      leftSideBarVisible = false;
+    }
+    else {
+      document.querySelector('.leftSideBar').style.display = 'flex';
+      document.querySelector('.leftSideBar').style.animation = 'slideIn 1s';
+      leftSideBarVisible = true;
+    }
+  }
+
+  return (<>
+  <div className="upperNavBar">
+    <img src="fav-ham.png" alt="hamMenu" className='hamburgerImg'onClick={showHideLeftSideBar}/>
+  </div>
     <div className="leftSideBar">
+    <img src="fav-ham.png" alt="hamMenu" className='hamburgerImginLeftBar'onClick={showHideLeftSideBar}/>
+
         <div className="profileDiv">
             <img src="eve.jfif" alt="Profile" className="profilePic"/>
             <h2>{props.Name}</h2>
@@ -27,6 +51,7 @@ function Sidebar(props) {
             <span>Made with Love using ReactJS</span>
         </div>
     </div>
+    </>
   )
 }
 
