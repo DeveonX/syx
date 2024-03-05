@@ -50,3 +50,24 @@
     font-weight: bold;
     text-shadow: 0px 0px 5px black;
 }
+
+@media screen and (max-width: 768px){
+    .homeDiv{
+        width: 100vw;
+    }
+    .homeDiv::before{
+        width: 100vw;
+    }
+    .mainDiv p{
+        margin-left: 5%;
+        margin-top: 10%;
+        font-size: 2rem;
+    }
+    .typeWrite{
+        margin-left: 3%;
+        margin-top: 5%;
+        font-size: 1.5rem;
+        height: 30vh;
+    }
+    
+}

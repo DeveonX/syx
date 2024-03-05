@@ -22,7 +22,6 @@
 .leftSideBar .profileDiv{
     margin-top: 6%;
     width: 100%;
-    height:fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,6 +92,7 @@
     font-weight: 400;
     color: rgb(216, 216, 216);
     text-decoration: none;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
@@ -130,4 +130,10 @@
     font-size: 15px;
     font-weight: 400;
     color: #fff;
+}
+
+@media screen and (max-width: 768px){
+    .leftSideBar{
+        display: none;
+    }
 }

@@ -162,3 +162,57 @@
     background-color: black;
     border-radius: 8px;
 }
+
+@media screen and (max-width: 800px){
+
+    .contactDiv{
+        color: white;
+        background-color: black;
+    }
+
+    .contactDiv p{
+        color: white;
+    }
+
+    .contactDiv h1{
+        margin-top: 5%;
+    }
+    .contactCard{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contactCardLeft, .contactCardRight{
+        width: 100%;
+        margin: 0;
+        margin-top: 5%;
+        border-radius: 0;
+        box-shadow: 0px 0px 4px white;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+
+    .contactCardLeft p, .contactCardRight p{
+        color: white;
+    }
+
+    .contactCardRight h2, .contactCardRight .inputField{
+        margin-left: 0;
+    }
+
+    .contactCardImages{
+        filter: invert(1);
+    }
+
+    .inputField{
+        width: 100%;
+    }
+    #messageSubmitButton{
+        width: 40%;
+    }
+
+    #textAreaInputField{
+        margin: 0;
+    }
+    
+}

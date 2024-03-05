@@ -11,7 +11,7 @@ function About(props) {
         <p className='aboutParagraph'>
         I am enthusiastic about sharing my evolving skills and creative endeavors. Every small project I undertake is a stepping stone, showcasing my dedication to the craft and my eagerness to take on new challenges.
         </p>
-        <div className="aboutImage">
+        <div className="aboutSection">
           <img src="aboutImage.jpg" alt="aboutImage" />
           <div className="details">
             <h2>Some Details</h2>
