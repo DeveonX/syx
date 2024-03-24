@@ -4,3 +4,6 @@ Using this without my permission is not allowed
 
 # Note
 **It is only optimised for desktop screens as of now, on mobile phones it might look terrible**
+**Edit: Fixed a little bit on mobile screen**
+
+*Hosted on [Syx](https://syx.vercel.app)*
