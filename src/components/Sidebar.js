@@ -42,7 +42,6 @@ function Sidebar(props) {
                 <li><a href="#homeDiv"><img className='menuBarImages' src="fav-home.png" alt="home"/>Home</a></li>
                 <li><a href="#aboutDiv"><img className='menuBarImages' src="fav-about.png" alt="home"/>About</a></li>
                 <li><a href="#contactDiv"><img className='menuBarImages' src="fav-message.png" alt="home"/>Contact me</a></li>
-                <li><a href="#SyX"><img className='menuBarImages' src="fav-syx.png" alt="home"/>SyX</a></li>
 
             </ul>
         </div>
