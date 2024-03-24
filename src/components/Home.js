@@ -26,6 +26,17 @@ export default function Home(props) {
           <div style={{marginTop: "70vh"}}>
             <About Age={props.Age} Phone={props.Phone} Email={props.Email}/>
           </div>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1565409973597999"
+              crossorigin="anonymous"></script>
+          <ins class="adsbygoogle"
+              style={{display: "block"}}
+              data-ad-client="ca-pub-1565409973597999"
+              data-ad-slot="9111976133"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
           <div>
             <Contact Phone={props.Phone} Email={props.Email}/>
           </div>
